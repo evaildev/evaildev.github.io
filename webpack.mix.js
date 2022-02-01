@@ -20,10 +20,6 @@ mix
     processCssUrls: false,
   });
 
-// mix.browserSync({
-//     proxy: 'mazer.test',
-// });
-
 mix.njk("src/*.html", "dist/", {
   ext: ".html",
   marked: null,
