@@ -1,12 +1,12 @@
 {
-  "name": "evail-portfolio",
+  "name": "vivek9patel-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://evaildev.github.io/",
+  "homepage": "https://vivek9patel.github.io/",
   "scripts": {
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && next build",
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "build": "next build",
+    "start": "next start",
     "export": "next export"
   },
   "dependencies": {
