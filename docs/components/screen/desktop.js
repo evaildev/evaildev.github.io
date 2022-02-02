@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import BackgroundImage from '../util components/background-image';
 import SideBar from './side_bar';
-import apps from '../../apps.config';
+import apps from '../../../apps.config';
 import Window from '../base/window';
 import UbuntuApp from '../base/ubuntu_app';
 import AllApplications from '../screen/all-applications'

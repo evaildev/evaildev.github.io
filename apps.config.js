@@ -1,11 +1,11 @@
-import displaySpotify from './components/apps/spotify';
-import displayVsCode from './components/apps/vscode';
-import { displayTerminal } from './components/apps/terminal';
-import { displaySettings } from './components/apps/settings';
-import { displayChrome } from './components/apps/chrome';
-import { displayTrash } from './components/apps/trash';
-import { displayGedit } from './components/apps/gedit';
-import { displayAboutVivek } from './components/apps/vivek';
+import displaySpotify from './docs/components/apps/spotify';
+import displayVsCode from './docs/components/apps/vscode';
+import { displayTerminal } from './docs/components/apps/terminal';
+import { displaySettings } from './docs/components/apps/settings';
+import { displayChrome } from './docs/components/apps/chrome';
+import { displayTrash } from './docs/components/apps/trash';
+import { displayGedit } from './docs/components/apps/gedit';
+import { displayAboutVivek } from './docs/components/apps/vivek';
 
 const apps = [
     {
