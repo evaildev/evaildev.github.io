@@ -5,8 +5,8 @@
   "homepage": "https://vivek9patel.github.io/",
   "scripts": {
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && next start",
     "export": "next export"
   },
   "dependencies": {
